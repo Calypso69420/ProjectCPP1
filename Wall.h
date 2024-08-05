@@ -13,8 +13,8 @@ public:
 	sf::RectangleShape rectangle;
 	sf::Color color;
 
-	Wall();															/* Constructors */
-
+	/* Constructors */
+	Wall();		
 	Wall(sf::Vector2<float> location, float sizex, float sizey);
 };
 

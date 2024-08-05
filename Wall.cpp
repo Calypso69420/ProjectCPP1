@@ -7,6 +7,7 @@ void Wall::Tick(float TickTime) {
 }
 
 void Wall::SelfDraw(sf::RenderWindow& window) {
+	 rectangle.setPosition(location);
 	 window.draw(rectangle);
 }
 
